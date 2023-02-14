@@ -1,7 +1,5 @@
 # Cloud Run Static Site
 
-WIP
-
 An example of a GCP Cloud Run deployment hosting a static website, with the Docker image hosted in Artifact Registry.
 
 ## Setup and deploying
