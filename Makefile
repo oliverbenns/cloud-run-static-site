@@ -1,7 +1,7 @@
 .PHONY: build deploy run
 
 build:
-	docker build --platform linux/amd64 -t ${IMAGE_TAG}.
+	docker build --platform linux/amd64 -t ${IMAGE_TAG} .
 
 push: build
 	gcloud auth configure-docker ${IMAGE_TAG} --quiet
